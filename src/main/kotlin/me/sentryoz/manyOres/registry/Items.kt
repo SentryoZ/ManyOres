@@ -60,7 +60,7 @@ object Items : ItemRegistry by ManyOres.registry {
     val TIN_NUGGET = registerItem("tin_nugget")
     val URANIUM_NUGGET = registerItem("uranium_nugget")
     val ZINC_NUGGET = registerItem("zinc_nugget")
-    
+
     // Dusts
     val CINNABAR_DUST = registerItem("cinnabar_dust")
     val RUBY_DUST = registerItem("ruby_dust")
@@ -81,4 +81,26 @@ object Items : ItemRegistry by ManyOres.registry {
     val TIN_DUST = registerItem("tin_dust")
     val URANIUM_DUST = registerItem("uranium_dust")
     val ZINC_DUST = registerItem("zinc_dust")
+
+    // Blocks
+    val ALUMINUM_BLOCK = item(Blocks.ALUMINUM_BLOCK) {}
+    val LEAD_BLOCK = item(Blocks.LEAD_BLOCK) {}
+    val NICKEL_BLOCK = item(Blocks.NICKEL_BLOCK) {}
+    val OSMIUM_BLOCK = item(Blocks.OSMIUM_BLOCK) {}
+    val PLATINUM_BLOCK = item(Blocks.PLATINUM_BLOCK) {}
+    val SILVER_BLOCK = item(Blocks.SILVER_BLOCK) {}
+    val TIN_BLOCK = item(Blocks.TIN_BLOCK) {}
+    val URANIUM_BLOCK = item(Blocks.URANIUM_BLOCK) {}
+    val ZINC_BLOCK = item(Blocks.ZINC_BLOCK) {}
+
+    // Ores
+    val ORE_ALUMINUM = item(Blocks.ORE_ALUMINUM) {}
+    val ORE_LEAD = item(Blocks.ORE_LEAD) {}
+    val ORE_NICKEL = item(Blocks.ORE_NICKEL) {}
+    val ORE_OSMIUM = item(Blocks.ORE_OSMIUM) {}
+    val ORE_PLATINUM = item(Blocks.ORE_PLATINUM) {}
+    val ORE_SILVER = item(Blocks.ORE_SILVER){}
+    val ORE_TIN = item(Blocks.ORE_TIN){}
+    val ORE_URANIUM = item(Blocks.ORE_URANIUM){}
+    val ORE_ZINC = item(Blocks.ORE_ZINC){}
 }
