@@ -66,5 +66,24 @@
   "item.many_ores.steel_dust": "Steel Dust",
   "item.many_ores.tin_dust": "Tin Dust",
   "item.many_ores.uranium_dust": "Uranium Dust",
-  "item.many_ores.zinc_dust": "Zinc Dust"
+  "item.many_ores.zinc_dust": "Zinc Dust",
+
+  "block.many_ores.aluminum_block": "Aluminum Block",
+  "block.many_ores.lead_block": "Lead Block",
+  "block.many_ores.nickel_block": "Nickel Block",
+  "block.many_ores.osmium_block": "Osmium Block",
+  "block.many_ores.platinum_block": "Platinum Block",
+  "block.many_ores.silver_block": "Silver Block",
+  "block.many_ores.tin_block": "Tin Block",
+  "block.many_ores.uranium_block": "Uranium Block",
+  "block.many_ores.zinc_block": "Zinc Block",
+
+  "block.many_ores.ore_aluminum": "Aluminum Ore",
+  "block.many_ores.ore_lead": "Lead Ore",
+  "block.many_ores.ore_osmium": "Osmium Ore",
+  "block.many_ores.ore_platinum": "Platinum Ore",
+  "block.many_ores.ore_silver": "Silver Ore",
+  "block.many_ores.ore_tin": "Tin Ore",
+  "block.many_ores.ore_uranium": "Uranium Ore",
+  "block.many_ores.tin_ore": "Zinc Ore"
 }

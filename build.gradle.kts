@@ -19,7 +19,7 @@ dependencies {
 }
 
 addon {
-    name = project.name.replaceFirstChar(Char::uppercase)
+    name = project.name.replaceFirstChar(Char::uppercase).replace(' ', '_')
     version = project.version.toString()
     main = "me.sentryoz.manyOres.ManyOres"
     
