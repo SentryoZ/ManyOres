@@ -1,5 +1,5 @@
-group = "me.sentryoz.manyOres"
-version = "1.0.1-SNAPSHOT"
+group = "com.example" // TODO: Change this to your group
+version = "1.0-SNAPSHOT" // TODO: Change this to your addon version
 
 plugins {
     alias(libs.plugins.kotlin)
@@ -19,9 +19,9 @@ dependencies {
 }
 
 addon {
-    name = project.name.replaceFirstChar(Char::uppercase).replace(' ', '_')
+    name = project.name.replaceFirstChar(Char::uppercase)
     version = project.version.toString()
-    main = "me.sentryoz.manyOres.ManyOres"
+    main = "com.example.ExampleAddon" // TODO: Change this to your main class
     
     // output directory for the generated addon jar is read from the "outDir" project property (-PoutDir="...")
     val outDir = project.findProperty("outDir")
